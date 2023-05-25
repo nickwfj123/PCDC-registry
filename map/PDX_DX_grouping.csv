@@ -1,0 +1,66 @@
+﻿Primary diagnosis_level 1,level 2
+Diagnosis group (17),PDX 64 diagnosis values
+Lymphoid leukemia,Precursor B-cell lymphoblastic leukemia (Pre-B ALL)
+,T lymphoblastic leukemia/lymphoma
+,"Acute lymphoblastic leukemia, NOS"
+Myeloid leukemia,"Acute myeloid leukemia, NOS"
+,"Acute promyelocytic leukemia, t(15;17)(q22;q11-12)"
+,Acute myeloid leukemia with t(6;9) (p23;q34); DEK-NUP214
+Central nervous system tumor,"Medulloblastoma, NOS"
+,Pilocytic astrocytoma
+,"Astrocytoma, anaplastic"
+,Pineoblastoma
+,"Glioma, malignant"
+,"Astrocytoma, NOS"
+,"Ganglioglioma, anaplastic"
+Ewing sarcoma,Ewing sarcoma
+Germ cell tumor,Dysgerminoma
+,Mixed germ cell tumor
+,"Sertoli-Leydig cell tumor, NOS"
+,"Teratoma, malignant, NOS"
+,"Teratoma, benign"
+,"Granulosa cell tumor, juvenile"
+,"Teratoma, NOS"
+Hodgkin lymphoma,"Hodgkin lymphoma, NOS"
+Leukemia NOS ,Mixed phenotype acute leukemia with t(v;11q23); MLL rearranged
+,"Acute leukemia, NOS"
+Liver tumor,"Hepatocellular carcinoma, NOS"
+,Hepatoblastoma
+,"Hepatocellular carcinoma, fibrolamellar"
+Neuroblastoma,"Neuroblastoma, NOS"
+,"Neuroblastoma, high risk"
+,Ganglioneuroblastoma
+,Ganglioneuroma
+Non-Hodgkin lymphoma ,"Follicular lymphoma, NOS"
+,"Anaplastic large cell lymphoma, NOS"
+,"Malignant lymphoma, large B-cell, diffuse, NOS"
+,"Mature T-cell lymphoma, NOS"
+Non-Rhabdomyosarcoma soft tissue sarcoma,"Sarcoma, NOS"
+,Malignant peripheral nerve sheath tumor
+,"Synovial sarcoma, NOS"
+,"Clear cell sarcoma, NOS"
+,Pleomorphic liposarcoma
+,"Fibrosarcoma, NOS"
+,"Dermatofibrosarcoma, NOS"
+,Infantile fibrosarcoma
+Normal tissue/no tumor,No evidence of malignancy
+,Negative for leukemia
+,"Lymph node, benign"
+,Lupus Erythematosus
+,Normal bone marrow
+Osteosarcoma,"Osteosarcoma, NOS"
+Rare tumor,"Pancreatobiliary neoplasm, non-invasive"
+,Aggressive fibromatosis
+,"Epithel. mesothelioma, mal."
+,Adrenal cortical carcinoma
+,"Pheochromocytoma, NOS"
+Renal tumor,Clear cell sarcoma of kidney
+,"Nephroblastoma, NOS (Wilms tumor)"
+,"Nephroblastoma, NOS (Wilms tumor, anaplastic)"
+,Mesoblastic nephroma
+,"Nephroblastoma, NOS"
+Rhabdomyosarcoma,Embryonal rhabdomyosarcoma
+,"Rhabdomyosarcoma, NOS"
+Unknown,Unknown
+Other,"Paraganglioma, NOS"
+,"Post transplant lymphoproliferative disorder, NOS"
