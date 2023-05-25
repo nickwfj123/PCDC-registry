@@ -4,7 +4,7 @@ Authors: Fangjiang Wu, Yueqi Li, Hongyin Lai
 
 ## Introduction
 
-This is a pipeline to preproccess raw clinical data and transform it to analysis-ready structures.
+This is a pipeline to preprocess raw clinical data and transform it to analysis-ready structures.
 
 ## Required Dependencies
 
