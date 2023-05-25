@@ -68,18 +68,18 @@ install ipykernel
 
 ### Step 1. Get the newest version pcdc_core folder into input folder
 
-i.e., pcdc_core_v20230215/
+i.e., pcdc_core_folder/
 - patient.csv
 - biospecimen.csv
 - pathology_image.csv
 
 ```
-mv pcdc_core_v** your_path/input/pcdc_core_v**
+mv pcdc_core_folder your_path/input/pcdc_core_folder
 ```
 
 ### Step 2. Run `reg_patient_ose.py`
 Input:
-- `OSE_20220208_db-export/clinical.csv`
+- `OSE_input_file`
 - `map/codebook_mapping.csv`
 - `im/dictionary.csv`
 - `im/dictionary_codebook.csv`
@@ -89,11 +89,7 @@ Output:
 
 ### Step 3. Run `reg_patient_rmse.py`
 Input:
-- `COG-RMS_curated_20201106/cog_clinical_curated.csv`
-- `COG-RMS_curated_20201106/instruct_a_curated.csv`
-- `COG-RMS_curated_20201106/instruct_b_curated.csv`
-- `COG-RMS_curated_20201106/pathology_image.csv`
-- `COG-RMS_curated_20201106/mapping_histology_rms.csv`
+- `COG-RMS_input_file`
 - `map/codebook_mapping.csv`
 - `map/RMSE_col_map.csv`
 - `im/dictionary.csv`
@@ -104,10 +100,7 @@ Output:
 
 ### Step 4. Run `reg_patient_pdx.py`
 Input:
-- `PDX_DB_V20220329_export/patient.csv`
-- `PDX_DB_V20220329_export/proc.csv`
-- `PDX_DB_V20220329_export/image.csv`
-- `PDX_DB_V20220329_export/sample.csv`
+- `PDX_DB_input_file`
 - `map/PDC_DX_grouping.csv`
 - `im/dictionary.csv`
 - `im/dictionary_codebook.csv`
@@ -117,10 +110,7 @@ Output:
 
 ### Step 5. Run `reg_patient_gct.py`
 Input:
-- `GCTE_DB_v20220418/gct_table_Patients.csv`
-- `GCTE_DB_v20220418/gct_table_CodeGender.csv`
-- `GCTE_DB_v20220418/gct_table_Followup.csv`
-- `GCTE_DB_v20220418/gct_table_TumorDiagnosis.csv`
+- `GCTE_DB_input_file`
 - `im/dictionary.csv`
 - `im/dictionary_codebook.csv`
 
@@ -129,7 +119,7 @@ Output:
 
 ### Step 6. Run `reg_patient_mda.py`
 Input:
-- `PSTCDRC01_v20221004_etl/clinical.csv`
+- `PSTCDRC01_input_file`
 - `map/mp_dx.xlsx`
 - `im/dictionary.csv`
 - `im/dictionary_codebook.csv`
@@ -143,7 +133,7 @@ Merge all subtables and generate final output.
 `merge_checkers.txt` to record any data QC issue.
 
 Input:
-- `pcdc_core_v**/`
+- `pcdc_core_folder`
 - `reg_patient_ose.csv`
 - `reg_patient_rmse.csv`
 - `reg_patient_pdx.csv`
@@ -153,7 +143,7 @@ Input:
 
 Output:
 - `reg_patient_merge.csv`
--  `merge_checkers.txt`
+- `merge_checkers.txt`
 
 
 ## Functions Comparison Table
